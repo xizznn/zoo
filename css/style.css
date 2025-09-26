@@ -27,6 +27,12 @@ h2 {
   font-size: 32px;
   color: #ffffff; /* коричневый */
 }
+h3 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 32px;
+  color: #292929; /* коричневый */
+}
 
 /* Логотип */
 .logo img {
