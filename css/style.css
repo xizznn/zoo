@@ -25,7 +25,7 @@ h2 {
   text-align: center;
   margin-bottom: 40px;
   font-size: 32px;
-  color: #4e342e; /* коричневый */
+  color: #ffffff; /* коричневый */
 }
 
 /* Логотип */
@@ -112,6 +112,7 @@ h2 {
   text-align: center;
   background-size: cover;
   background-position: center;
+  background: rgba(0, 0, 0, 0.1);
 }
 
 .slide-content {
