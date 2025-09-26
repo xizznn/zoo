@@ -1,124 +1,165 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Зоопарк "Мадагаскар"</title>
     <link rel="stylesheet" href="css/style.css" />
-   
-  </head>
-  <body>
+
+</head>
+
+<body>
     <!-- Шапка -->
     <header class="header">
-      <div class="container">
-        <div class="header-content">
-          <div class="logo">
-            <img src="img/zoo.png" alt="Логотип зоопарка" />
-          </div>
-          <nav class="nav">
-            <a href="#slider">Главная</a>
-            <a href="#employees">Сотрудники</a>
-            <a href="#animals">Животные</a>
-            <a href="#reviews">Отзывы</a>
-            <a href="#footer">Контакты</a>
-          </nav>
-          <a href="tel:+78005553535" class="call-btn">Позвонить</a>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="img/zoo.png" alt="Логотип зоопарка" />
+                </div>
+                <nav class="nav">
+                    <a href="#slider">Главная</a>
+                    <a href="#employees">Сотрудники</a>
+                    <a href="#animals">Животные</a>
+                    <a href="#reviews">Отзывы</a>
+                    <a href="#footer">Контакты</a>
+                </nav>
+                <a href="tel:+78005553535" class="call-btn">Позвонить</a>
+            </div>
         </div>
-      </div>
     </header>
 
     <!-- Слайдер с УТП -->
     <section id="slider" class="slider">
-      <div class="slides">
-        <div
-          class="slide"
-          style="
+        <div class="slides">
+            <div class="slide" style="
             background-image: url('img/image2.webp');
-          "
-        >
-          <div class="slide-content">
-            <h2>200+ видов животных</h2>
-            <p>Откройте мир дикой природы в нашем зоопарке</p>
-            <a href="#animals" class="btn">Купить билет</a>
-          </div>
-        </div>
+          ">
+                <div class="slide-content">
+                    <h2>200+ видов животных</h2>
+                    <p>Откройте мир дикой природы в нашем зоопарке</p>
+                    <a href="#animals" class="btn">Купить билет</a>
+                </div>
+            </div>
 
-        <div
-          class="slide"
-          style="
+            <div class="slide" style="
             background-image: url('img/image3.webp');
-          "
-        >
-          <div class="slide-content">
-            <h2>Эко-тропы и прогулки</h2>
-            <p>Зелёные зоны для всей семьи</p>
-            <a href="#employees" class="btn">Узнать больше</a>
-          </div>
-        </div>
+          ">
+                <div class="slide-content">
+                    <h2>Эко-тропы и прогулки</h2>
+                    <p>Зелёные зоны для всей семьи</p>
+                    <a href="#employees" class="btn">Узнать больше</a>
+                </div>
+            </div>
 
-        <div
-          class="slide"
-          style="
+            <div class="slide" style="
             background-image: url('img/image1.jpg');
-          "
-        >
-          <div class="slide-content">
-            <h2>Шоу и кормления</h2>
-            <p>Незабываемые впечатления каждый день</p>
-            <a href="#reviews" class="btn">Расписание</a>
-          </div>
+          ">
+                <div class="slide-content">
+                    <h2>Шоу и кормления</h2>
+                    <p>Незабываемые впечатления каждый день</p>
+                    <a href="#reviews" class="btn">Расписание</a>
+                </div>
+            </div>
         </div>
-      </div>
 
-      <!-- Управление -->
-      <div class="controls">
-        <button class="control prev">‹</button>
-        <button class="control next">›</button>
-      </div>
+        <!-- Управление -->
+        <div class="controls">
+            <button class="control prev">‹</button>
+            <button class="control next">›</button>
+        </div>
     </section>
 
     <!-- Заглушки для разделов -->
-    <section id="employees" class="container" style="padding: 100px 0">
-      <h3>Наши сотрудники</h3>
-      <p>Описание сотрудников зоопарка...</p>
+    <section id="employees" class="employees">
+        <div class="container">
+            <h2>Наши сотрудники</h2>
+            <div class="employees-grid">
+                <div class="employee-card">
+                    <div class="employee-photo">
+                        <img src="img/employee1.jpg" alt="Директор зоопарка">
+                    </div>
+                    <h3>Алексей Петров</h3>
+                    <p class="position">Директор зоопарка</p>
+                    <p class="description">Опыт работы 15 лет. Специалист по охране природы.</p>
+                </div>
+
+                <div class="employee-card">
+                    <div class="employee-photo">
+                        <img src="img/employee2.jpg" alt="Главный зоолог">
+                    </div>
+                    <h3>Мария Сидорова</h3>
+                    <p class="position">Главный зоолог</p>
+                    <p class="description">Доктор биологических наук. Автор научных работ.</p>
+                </div>
+
+                <div class="employee-card">
+                    <div class="employee-photo">
+                        <img src="img/employee3.jpg" alt="Ветеринар">
+                    </div>
+                    <h3>Дмитрий Козлов</h3>
+                    <p class="position">Главный ветеринар</p>
+                    <p class="description">Специалист по экзотическим животным. Стаж 12 лет.</p>
+                </div>
+
+                <div class="employee-card">
+                    <div class="employee-photo">
+                        <img src="img/employee4.jpg" alt="Экскурсовод">
+                    </div>
+                    <h3>Ольга Николаева</h3>
+                    <p class="position">Старший экскурсовод</p>
+                    <p class="description">Проводит увлекательные экскурсии для детей и взрослых.</p>
+                </div>
+
+                <div class="employee-card">
+                    <div class="employee-photo">
+                        <img src="img/employee5.jpg" alt="Специалист по хищникам">
+                    </div>
+                    <h3>Иван Волков</h3>
+                    <p class="position">Специалист по хищникам</p>
+                    <p class="description">Работает с крупными кошачьими. Опыт 8 лет.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="animals" class="container" style="padding: 100px 0">
-      <h3>Наши животные</h3>
-      <p>Описание животных...</p>
+        <h3>Наши животные</h3>
+        <p>Описание животных...</p>
     </section>
 
     <section id="reviews" class="container" style="padding: 100px 0">
-      <h3>Отзывы посетителей</h3>
-      <p>Отзывы наших гостей...</p>
+        <h3>Отзывы посетителей</h3>
+        <p>Отзывы наших гостей...</p>
     </section>
 
     <footer id="footer" class="container" style="padding: 100px 0">
-      <h3>Контакты</h3>
-      <p>Телефон, адрес, соцсети...</p>
+        <h3>Контакты</h3>
+        <p>Телефон, адрес, соцсети...</p>
     </footer>
 
     <!-- JS для слайдера -->
     <script>
-      const slides = document.querySelector(".slides");
-      const slideCount = document.querySelectorAll(".slide").length;
-      let index = 0;
+        const slides = document.querySelector(".slides");
+        const slideCount = document.querySelectorAll(".slide").length;
+        let index = 0;
 
-      function showSlide(i) {
-        if (i < 0) index = slideCount - 1;
-        else if (i >= slideCount) index = 0;
-        else index = i;
-        slides.style.transform = `translateX(-${index * 100}%)`;
-      }
+        function showSlide(i) {
+            if (i < 0) index = slideCount - 1;
+            else if (i >= slideCount) index = 0;
+            else index = i;
+            slides.style.transform = `translateX(-${index * 100}%)`;
+        }
 
-      document
-        .querySelector(".prev")
-        .addEventListener("click", () => showSlide(index - 1));
-      document
-        .querySelector(".next")
-        .addEventListener("click", () => showSlide(index + 1));
+        document
+            .querySelector(".prev")
+            .addEventListener("click", () => showSlide(index - 1));
+        document
+            .querySelector(".next")
+            .addEventListener("click", () => showSlide(index + 1));
 
-      setInterval(() => showSlide(index + 1), 5000);
+        setInterval(() => showSlide(index + 1), 5000);
     </script>
-  </body>
+</body>
+
 </html>
